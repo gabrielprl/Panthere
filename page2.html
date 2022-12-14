@@ -2,8 +2,8 @@
 <html lang="Default">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="formulaire, contact, La Panthère">
+    <meta name="description" content="Besoin d'un conseil, une question ? contacter nous !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	
     
 	<script src="./js/jquery-2.1.0.min.js"></script>
@@ -18,7 +19,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>Formulaire de contact</title>
 
     
 <!-- Analytics -->
@@ -28,10 +29,10 @@
 </head>
 <body>
 <!-- Principal conteneur -->
-<div class="page-container">
+<div class="page-container" id="up">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<div class="bloc bgc-white l-bloc" id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -40,8 +41,8 @@
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav nav-custom">
+				<ul class="nav">
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
@@ -85,24 +86,24 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" placeholder="Mathieu" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" placeholder="Legrand" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="email" placeholder="Internet, Boche à oreille.." required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Votre message..." required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -120,7 +121,7 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a href="#up" class="bloc-button btn scrollToTop" onclick="scrollToTarget('1')"><i class="fa-solid fa-chevron-up"></i>Twitter</a>
 <!-- ScrollToTop Button END-->
 
 
@@ -129,28 +130,28 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center black">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><i class="fa-brands fa-twitter fa-custom"></i>Twitter</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><i class="fa-brands fa-facebook fa-custom"></i>Twitter</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><i class="fa-brands fa-dribbble fa-custom"></i>Twitter</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><i class="fa-brands fa-instagram fa-custom"></i>Twitter</a>
 						</div>
 					</div>
 				</div>
