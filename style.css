@@ -1061,3 +1061,13 @@ ul.nav li a{
     display: flex;
     justify-content: left;
 }
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 8px;
+    margin: 10px 0;
+}
