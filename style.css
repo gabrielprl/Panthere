@@ -1103,3 +1103,8 @@ a, img{
 .btn{
     width: 200px;
 }
+
+img.img-responsive.portfolio-thumb{
+    width: 100%;
+    height: auto;
+}
